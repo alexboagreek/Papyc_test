@@ -1,0 +1,16 @@
+.footer {
+    background-color: $footer;
+
+    &__helper {
+        display: flex;
+    }
+
+    &__navigation {
+        display: flex;
+        gap: 62px;
+    }
+    copyright
+    &__social {
+        display: flex;
+    }
+}

@@ -5,8 +5,7 @@
 
     &__helper {
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 46px;
+        justify-content: sp;
     }
 
     &__navigation {
@@ -27,26 +26,6 @@
     &__info {
         display: flex;
         align-self: flex-end;
-
-        &_link {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 19px;
-            color: $text;
-        }
-
-        &_icon {
-            margin-right: 10px;
-        }
-
-        &_item {
-            display: flex;
-            margin-right: 62px;
-        }
-
-        &_item:last-child {
-            margin-right: 0;
-        }
     }
     &__social {
         display: flex;

@@ -29,10 +29,7 @@
         align-self: flex-end;
 
         &_link {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 19px;
-            color: $text;
+            class="footer__info_link"
         }
 
         &_icon {
