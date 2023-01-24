@@ -1,0 +1,26 @@
+
+
+
+.stock__helper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+    }
+}
+
+.stock__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 34px;
+  grid-row-gap: 34px;
+
+  &_item {
+    cursor: pointer;
+  }
+}

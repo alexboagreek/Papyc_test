@@ -1,0 +1,37 @@
+.stock {
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 36px;
+}
+
+
+.stock__helper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+.stock__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 17px;
+  grid-row-gap: 17px;
+
+  &_item {
+    cursor: pointer;
+    width: 361px;
+    height: 203px;
+  }
+
+  &_img {
+    display: block;
+    
+  }
+
+ 
+}

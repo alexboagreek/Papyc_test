@@ -1,0 +1,100 @@
+.header__location {
+    padding-top: 8px;
+    margin-bottom: 11px;
+
+    &_icon {
+        text-align: center;
+        width: 18px;
+        height: 18px;    
+    }
+
+    &_text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    &_helper {
+        display: flex;
+    }
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_icon {
+        margin-right: 6px;
+    }
+
+    &_item {
+        display: flex;
+        cursor: pointer;
+        margin-right: 36px;
+    }
+
+    &_item:last-child {
+        margin-right: 0;
+    }
+
+    &_phone {
+        display: flex;
+        cursor: pointer;
+
+        &_icon {
+            margin-right: 6px;
+        }
+    }
+
+  
+}
+
+.header__location_tagline {
+    height: 2px;
+    background-color: $tagline;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+
+    &_item {
+        margin-right: 23px;
+    }
+
+    &_item:last-child {
+        margin-right: 0;
+    }
+
+    &_help {
+        display: flex;
+    }
+
+    &_icon {
+        margin-right: 6px;
+    }
+
+    &_link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        &-active {
+            color: $active;
+        }
+    }
+
+    &_icon {
+        text-align: center;
+    }
+
+    &_last {
+        align-self: ;
+    }
+}
