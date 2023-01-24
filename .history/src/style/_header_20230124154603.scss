@@ -1,0 +1,22 @@
+.header__location {
+    padding-top: 8px;
+
+    &_box {
+        display: flex;
+    }
+    &_icon {
+        margin-right: 6px;
+    }
+
+    &_item {
+        display: flex;
+        margin-right: 36px;
+    }
+    &_item:last-child {
+        margin-right: 0;
+    }
+
+    &_phone {
+        display: flex;
+    }
+}

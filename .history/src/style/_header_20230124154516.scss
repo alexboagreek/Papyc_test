@@ -1,0 +1,18 @@
+.header__location {
+    padding-top: 8px;
+
+    &_box {
+        display: flex;
+    }
+    &_icon {
+        margin-right: 6px;
+    }
+
+    &_item {
+        display: flex;
+    }
+
+    &_phone {
+        display: flex;
+    }
+}
