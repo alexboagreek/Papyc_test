@@ -1,0 +1,7 @@
+.stock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 34px;
+  grid-row-gap: 34px;
+}
