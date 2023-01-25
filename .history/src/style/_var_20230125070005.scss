@@ -1,0 +1,14 @@
+$back: #FFFFFF;
+$text: #333333;
+$footer: #F4F4F4;
+$copy:  #8D8D8D;
+$tagline: #E8E8E8;
+$search: #DDDDDD;
+$active:  #E11C4B;
+
+@mixin tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+

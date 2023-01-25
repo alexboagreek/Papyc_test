@@ -1,0 +1,44 @@
+.stock {
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 36px;
+}
+
+
+.stock__helper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+.stock__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 17px;
+  margin-bottom: 96px;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  &_item {
+    cursor: pointer;
+    // width: 361px;
+    // height: 203px;
+  }
+
+  // &_img {
+  //   width: 100%;
+  //   width: 361px;
+  //   height: 203px;
+    
+  // }
+
+ 
+}

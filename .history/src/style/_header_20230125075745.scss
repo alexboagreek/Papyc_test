@@ -1,0 +1,198 @@
+.header__location {
+    padding-top: 8px;
+    margin-bottom: 11px;
+
+    @include tablet {
+        margin-bottom: 8px;
+    }
+
+    &_icon {
+        text-align: center;
+        width: 18px;
+        height: 18px;    
+    }
+
+    &_text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    &_helper {
+        display: flex;
+    }
+
+    &_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &_icon {
+        margin-right: 6px;
+    }
+
+    &_item {
+        display: flex;
+        cursor: pointer;
+        margin-right: 36px;
+    }
+
+    &_item:last-child {
+        margin-right: 0;
+    }
+
+    &_phone {
+        display: flex;
+        cursor: pointer;
+
+        &_icon {
+            margin-right: 6px;
+        }
+    }
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include tablet {
+        margin-top: 14px
+    }
+
+    &_item {
+        cursor: pointer;
+        margin-right: 24px;
+
+        @include tablet {
+            margin-right: 30px;
+        }
+    }
+
+    &_text {
+        line-height: 19px;
+
+        @include tablet {
+            font-size: 0;
+        }
+    }
+
+
+
+    &_item:last-child {
+        margin-right: 0;
+    }
+    &_icon {
+        margin: 0 auto;
+
+        @include tablet {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.header__location_tagline {
+    height: 2px;
+    background-color: $tagline;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    @include tablet {
+        padding-top: 16px;
+        margin-bottom: 0px;
+    }
+
+    &_logo {
+        margin-right: 51px;
+        @include tablet {
+            max-width: 157px;
+        }
+    }
+}
+
+.header__nav_list {
+    width: 1920px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+
+    &_item {
+        margin-right: 36px;
+
+    }
+
+    &_item:last-child {
+        margin-right: 0;
+    }
+
+    &_help {
+        display: flex;
+    }
+
+    &_link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        &-active {
+            color: $active;
+        }
+    }
+
+    &_icon {
+        display: flex;
+        margin-right: 6px;
+        text-align: center;
+    }
+
+    &_button {
+        position: relative;
+        left: -29px;
+        z-index: 1;
+    }
+
+}
+
+.header__search {
+    flex-grow: 1;
+    margin-right: auto;
+}
+
+.search {
+    position: relative;
+    max-width: 523px;
+    height: 46px;
+
+    @include tablet {
+        max-width: 299px;
+    }
+
+
+    &__input {
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+        border: 1px solid $copy;
+        padding-left: 50px;
+        padding-right: 46px;
+        font-size: 16px;
+    }
+
+    &__input:-webkit-search-cancel-button {
+        display: none;
+    }
+
+    &__btn {
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 0;
+    }
+}
