@@ -51,7 +51,6 @@
     justify-content: center;
 
     &_item {
-        cursor: pointer;
         margin-right: 24px;
     }
 
@@ -74,20 +73,14 @@
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-
-    &_logo {
-        margin-right: 51px;
-    }
 }
 
 .header__nav_list {
-    width: 1920px;
-    overflow: hidden;
     display: flex;
-    position: relative;
+    justify-content: space-between;
 
     &_item {
-        margin-right: 36px;
+        margin-right: 23px;
     }
 
     &_item:last-child {
@@ -113,12 +106,10 @@
         text-align: center;
     }
 
-    &_button {
-        position: relative;
-        left: -29px;
-        z-index: 1;
+    &_last {
+        margin-left: 23px;
+        align-self: flex-end;
     }
-
 }
 
 .header__search {
@@ -128,29 +119,28 @@
 
 .search {
     position: relative;
-    max-width: 523px;
-    height: 46px;
+    max-width: 692px;
+    height: 36px;
+}
 
+.search__input {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 1px sil ;
+    padding-left: 16px;
+    padding-right: 46px;
+    font-weight: 300;
+    font-size: 14px;
+}
 
-    &__input {
-        width: 100%;
-        height: 100%;
-        border-radius: 100px;
-        border: 1px solid $copy;
-        padding-left: 50px;
-        padding-right: 46px;
-        font-size: 16px;
-    }
-
-    &__input:-webkit-search-cancel-button {
-        display: none;
-    }
-
-    &__btn {
-        position: absolute;
-        left: 18px;
-        top: 50%;
-        transform: translateY(-50%);
-        line-height: 0;
-    }
+.search__input::-webkit-search-cancel-button {
+    display: none;
+}
+.search__btn {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 0;
 }

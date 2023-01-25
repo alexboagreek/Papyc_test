@@ -113,12 +113,10 @@
         text-align: center;
     }
 
-    &_button {
-        position: relative;
-        left: -29px;
-        z-index: 1;
+    &_last {
+        margin-left: 23px;
+        align-self: flex-end;
     }
-
 }
 
 .header__search {

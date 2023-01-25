@@ -81,13 +81,11 @@
 }
 
 .header__nav_list {
-    width: 1920px;
-    overflow: hidden;
     display: flex;
-    position: relative;
+    justify-content: space-between;
 
     &_item {
-        margin-right: 36px;
+        margin-right: 23px;
     }
 
     &_item:last-child {
@@ -113,12 +111,10 @@
         text-align: center;
     }
 
-    &_button {
-        position: relative;
-        left: -29px;
-        z-index: 1;
+    &_last {
+        margin-left: 23px;
+        align-self: flex-end;
     }
-
 }
 
 .header__search {
